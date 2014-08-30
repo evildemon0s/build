@@ -42,8 +42,8 @@ if [ "$TARGET_UNIFIED_DEVICE" == "" ] ; then
   echo "ro.build.fingerprint=$BUILD_FINGERPRINT"
 fi
 #CandyCenter
-echo "ro.candy.device=$TARGET_DEVICE"
-echo "ro.cand.model=$PRODUCT_MODEL"
+echo "ro.candyroms.device=$TARGET_DEVICE"
+echo "ro.candyroms.model=$PRODUCT_MODEL"
 echo "ro.build.characteristics=$TARGET_AAPT_CHARACTERISTICS"
 
 echo "# end build properties"
