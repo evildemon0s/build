@@ -43,7 +43,7 @@ if [ "$TARGET_UNIFIED_DEVICE" == "" ] ; then
 fi
 #CandyCenter
 echo "ro.candy.device=$TARGET_DEVICE"
-echo "ro.cand.model=$PRODUCT_MODEL"
+echo "ro.candy.model=$PRODUCT_MODEL"
 echo "ro.build.characteristics=$TARGET_AAPT_CHARACTERISTICS"
 
 echo "# end build properties"
